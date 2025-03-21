@@ -1,5 +1,5 @@
 class Item:
-    pay_rate = 0.8 # This is a class attribute
+    pay_rate = 0.8 # This is a class variable
     all = []
     def __init__(self, name:str, price: float, quantity=0):
         assert price>=0, f"Price {price} is not greater than or equal to zero!"
